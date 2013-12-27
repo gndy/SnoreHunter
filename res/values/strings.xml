@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SnoreHunter</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_usage">Usage</string>
+    <string name="tutorial_sampleRate">采样的码率可以选择8000Hzh或者16000Hz，码率越高，质量越好，但是产生的文件越大，耗费系统资源也就越多。（推荐8000Hz）</string>
+    <string name="tutorial_threshold">阈值是指每次采样是音量超过一定的值就会被记录下来，越低越灵敏，但是误差就越大（推荐10）</string>
+    <string name="tutorial_mintimes">最低次数是指5秒钟内采样10次，超过这个最低次数就视为开始打鼾，越低越灵敏，但是误差就越大（推荐4）</string>
+    <string name="about_text1">“鼾声猎人”是一款智能鼾声记录的安卓应用程序，在睡眠过程中，进行全程录音，并自动记录下打鼾开始的时间点，估算出总共打鼾时间，后期查看时，可跳转到打鼾开始时间点附近。</string>
+    <string name="about_text2">作者：中国科学院大学武汉病毒研究所生物信息学科组——文雷</string>
+    
+</resources>

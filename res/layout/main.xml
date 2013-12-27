@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#333"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <ImageView
+            android:id="@+id/top_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tophead" />
+        
+        <TextView
+            android:id="@+id/main_tab_banner_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="SnoreHunter"
+            android:textColor="#EEEFFF"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#808082"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/button_record"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/record" />
+        
+            <ImageView
+            android:id="@+id/button_history"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/history" />
+
+        <ImageView
+            android:id="@+id/button_usage"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/usage" />
+
+        <ImageView
+            android:id="@+id/button_about"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/about" />
+        <ImageView
+            android:id="@+id/button_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/setting" />
+        
+     
+        
+    </LinearLayout>
+    
+    
+	 <LinearLayout android:id="@+id/main_tab_container"
+	    android:orientation="vertical"
+        android:layout_above="@id/linear_layout1"
+        android:layout_below="@id/linear_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/main_bg">
+
+	       
+	  
+              	         
+    </LinearLayout>
+
+</RelativeLayout>

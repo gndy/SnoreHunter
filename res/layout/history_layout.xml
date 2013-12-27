@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 这是范例ListView的布局文件，出了ListView，还可以放置其他控件 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_bg"
+        android:cacheColorHint="#00000000"
+        android:stackFromBottom="false"
+        android:transcriptMode="alwaysScroll" >
+
+    </ListView>
+
+</RelativeLayout>
